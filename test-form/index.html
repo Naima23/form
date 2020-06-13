@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>form</title>
+</head>
+
+<body>
+
+  <div class="container mt-4">
+    <h1 class="display-4 text-center">
+      <i class="fas fa-book-open text-primary"></i> Pr<span class="text-primary">esta</span>tion</h1>
+    <form id="book-form">
+      <div class="form-group">
+        <label for="Date">Date</label>
+        <input type="date" id="Date" class="form-control col-12   text-dark" placeholder="Date">
+
+      </div>
+      <div class="form-group">
+        <label for="Services">Services</label>
+
+        <input type="text" id="Services" class="form-control col-12 text-dark" placeholder="Services">
+
+      </div>
+      <div class="form-group">
+        <label for="Prix">Prix</label>
+        <input type="text" id="Prix" class="form-control col-12  text-dark " placeholder="Prix">
+
+      </div>
+
+      <div class="form-group">
+        <label for="Qté">Qté</label>
+        <input type="text" id="Qté" class="form-control col-12  text-dark" placeholder="Qté">
+
+      </div>
+      <input type="submit" value="Add" class="btn btn-primary btn-block">
+
+    </form>
+    <table class="table table-striped mt-5">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Produits/Services</th>
+          <th>Prix</th>
+          <th>Qté</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="book-list"></tbody>
+    </table>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

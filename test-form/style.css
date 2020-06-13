@@ -1,0 +1,10 @@
+body {
+    background-image: url(flowers-1.jpg);
+    background-size: 100%;
+
+}
+
+
+.container {
+    background-color: rgba(255, 255, 255, 0.438);
+}
